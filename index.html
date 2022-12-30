@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.js"></script>
+  <script src="./lib/p5.play.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>ONLY JS,HTML,CSS PRACTISE</title>
+  <!-- Sweet Alert c40 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="sweetalert.css" />
+  <!-- THIS LINK IMPORT THE SWEETALERT -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div class="saini"> HELLO RAM RAM SAINI JI </div>
+
+  <!-- NOW HOW ADD IMAGE AND LINKS  -->
+  <!-- <a href="https://google.com" target="_blank">GO TO GOOGLE</a> <BR>  
+<a href="https://console.firebase.google.com/u/0/?pli=1" target="_blank">GO TO FIREBASE</a> <BR>  
+<a href="https://replit.com/~" target="_blank">GO TO REPLIT</a> <BR>  
+<a href="https://thunkable.com/#/" target="_blank">GO TO THUNKABLE WEB</a> <BR>  
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">GO TO CSS REFERENCE</a> <BR>  
+<a href="https://FACEBOOK.com" target="_blank">GO TO FACEBOOK</a> <br>
+<a href="https://brm.io/matter-js/" target="_blank">GO TO MATTER.JS</a> <br>
+<a href="https://sweetalert.js.org/guides/" target="_blank">GO TO SWEETALERT</a> <br>
+<a href="https://twitter.com" target="_blank">GO TO TWITTER</a> <BR>  
+<a href="https://WHATSAPP.com" target="_blank">GO TO WHATSAPP</a> <br>
+<a href="https://linkedin.com" target="_blank">GO TO LINKEDIN</a> <br>
+<a href="https://github.com/rashmi-sathya?tab=repositories" target="_blank">GO TO RASHMI SATHYA GITHUB</a> <br>
+<a href="https://github.com/" target="_blank">GO TO KKS GIT</a> <br>
+<a href="https://YOUTUBE.com" target="_blank">GO TO YOUTUBE</a> <br>
+<a href="https://FAST.com" target="_blank">GO TO FAST</a> <br>
+<a href="https://p5js.org/" target="_blank">GO TO P5</a> <br>
+<a href="https://code.org/" target="_blank">GO TO CODE-ORG</a> <br>
+<a href="https://picular.co/" target="_blank">GO TO PICK ANY COLOR</a> <br>
+<a href="https://fonts.google.com" target="_blank">GO TO GOOGLE FONTS</a> <br>
+THIS IS METHOND TO ADD ANY FILE AND IMAGE WHEN PRESENT IN THIS VS CODE -->
+  <!-- <a href="/assets/HotAirBallon.png" target="_blank">GO TO IMAGE</a> <BR>
+<a href="/lib/p5.js" target="_blank">GO TO LIB</a> <BR> -->
+
+  <!-- THIS MEHTOND TO ADD IMAGE AND THIS IMAGE LINK WORK WHEN NETWORK AVILABLE-->
+  <!-- <img src="https://source.unsplash.com/1350x1350/?nature,water" alt="RAMOTE IMAGE"> -->
+  <!-- <img url= "https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Down_Sign_Emoji_Icon_ios10_grande.png" alt="IMAGE LOADING ERROR"> -->
+
+
+  <!-- how to use Id and many ways use class -->
+  <!-- <div id="kuldeep">
+kuldeep
+</div> -->
+
+  <!-- <br> -->
+  <!-- how to use Class and many ways use class -->
+  <!-- <div class="saini">
+saini
+</div> -->
+
+  <!-- HOW TO CREATE CANVAS IN HTML  -->
+  <!-- <canvas id="myCanvas" width="600" height="600" style="border: 1px solid red;"></canvas> -->
+
+  <!-- <h2 id="kuldeep">kuldeep</h2> -->
+
+  <!-- <h2 class="katariya">KULDEEP</h2> -->
+
+  <!-- <li class="katariya">KULDEEP</li> -->
+
+  <!-- this is for id querySelector -->
+  <!-- <h2 id="line"> LINE </h2> -->
+
+  <!-- this is for class querySelector -->
+  <!-- <h2 class="jack"> TIGER </h2> -->
+
+  <!-- USING THIS QUERYSELECTOR -->
+  <!-- <form>
+<input type="text">
+<input type="sumbit">
+</form> -->
+
+  <!-- NOW USING FOR QUERYSELCTORALL -->
+  <!-- <div>
+<li class="item">TIGER</li>
+<li class="item1">GRAPHIC</li>
+<li class="item2">MOTION</li>
+<li class="item3">2D</li>
+</div> -->
+
+  <script>
+    //THIS IS METHONG TO CALLING ID IN SCRIPT
+    //var kuldeep = document.getElementById("kuldeep");
+    //console.log(kuldeep);
+    // THESE ARE TWO METHOND WRITE TEXT
+    // kuldeep.innerHTML = "HELLO";
+    //kuldeep.textContent = "HELLO";
+
+    //NOW SECOND METHONG CALLING CLASS IN SCRIPT
+    // var saini = document.getElementsByClassName("saini");
+    // saini[1].style.color = "red";
+    // saini[1].style.fontWeight = "bold";
+    //saini[1].style.backgroundColor = "blue"
+    //console.log(saini[1]);
+
+    // //NOW THIRD METHOND CALLING TAG NAME IN SCRIPT
+    // var saini = document.getElementsByTagName("li");
+    // //console.log(h2);
+    // saini.style.color = "red";
+
+    //NOW USING QUERYSELECTOR AND QUERYSELECTORALL
+    //AND THIS FOR ID QUERYSELCTOR IN QUERYSELCTOR DEFINE USING HAS#
+    // var line = document.querySelector('#line');
+    // line.style.color = 'red';
+    // line.style.fontWeight = 'bold';
+    // line.style.fontSize = '50px';
+    // line.style.display = 'flex';
+
+    // NOW FOR CLASS QUERYSELECTOR
+    // var li = document.querySelector('.jack');
+    // li.style.color = 'blue';
+    // li.style.textAlign = 'center';
+
+    //QUERYSELCTORALL FOR USE INPUT
+    //var input = document.querySelector('input');
+    // input.style.color = 'red';
+    // input.style.background = 'blue';
+    //input.value = 'enter your name'
+    // input.style.Stroke = 'aqua';
+
+    // var input = document.querySelector('input[type="sumbit"]');
+    // input.style.color = 'blue';
+    // input.style.background = 'blue';
+    //input.value = 'sumbit';
+
+    //NOW FOR QUERYSELETORALL THE QUERYSELECTORALL ACCESS ALL INDEX VALUE BUT QUERYSELECTOR TAKING 1 VALUE
+    // var even = document.querySelectorAll("li:nth-child(even)");
+    // var odd = document.querySelectorAll("li:nth-child(odd)");
+
+    //USING FOR EVEN AND ODD POSSIBLE BY QUERYSELETORALL
+    // for(var i=0; i<even.length; i++){
+    // even[i].style.color = 'red';
+    // }
+    // for(var i=0; i<odd.length; i++){
+    // odd[i].style.color = 'aqua';
+    // }
+    // even.style.color = 'red'
+
+    // THIS IS SWEETALERT CODE
+    // swal({
+    //   title: "Are you sure?",
+    //   text: "Once deleted, you will not be able to recover this imaginary file!",
+    //   icon: "warning",
+    //   buttons: true,
+    //   dangerMode: true,
+    // })
+    //   .then((willDelete) => {
+    //     if (willDelete) {
+    //       swal("Poof! Your imaginary file has been deleted!", {
+    //         icon: "success",
+    //       });
+    //     } else {
+    //       swal("Your imaginary file is safe!");
+    //     }
+    //   });
+
+  </script>
+  <!-- CAREFUL I ADD SECOND BODY INTO ALREADY BODY OK NOW WE ARE GOING TO ADD TEXT ALIGNMENT WITHOUT CSS -->
+  <!-- <body bgcolor="green" text="yellow">
+    <p align="left">HYPER TEXT MARKUP LANGUAGE</p>
+    <p align="center">HYPER TEXT MARKUP LANGUAGE</p>
+    <p align="right">HYPER TEXT MARKUP LANGUAGE</p>
+</body> -->
+
+  <!-- NOW HOW TO INSERT BLANK SPACE IN BODY AND WITHOUT CSS-->
+  <!-- <P>
+    HYPERTEXT &nbsp MARKUP &nbsp LANGUAGE
+</P> -->
+
+  <!-- NOW DOCUMENT TO INSERT TEXT AT THE CENTER OF THE SCREEN WITHOUT CSS-->
+  <!-- <h1>
+    <center>
+        Welcome to HTMl
+    </center>
+</h1> -->
+
+  <!-- NOW DOCUMENT TO CHANGE FONT STYLE AND FONT SIZE -->
+  <!-- <font face = sans-serif size="8"> TIGER </font> <BR>
+<font face = roboto size="6"> TIGER </font> <BR>
+<font face = arial size="4"> TIGER </font> <BR> -->
+
+  <!-- DOCUMENT TO FORMAT TEXT  -->
+  <!-- <b>Welcome to Html</b> <br>
+<i>Welcome to Html</i> <br>
+ <u>Welcome to Html</u> <br>    
+ <strike>Welcome to Html</strike> <br> -->
+
+  <!-- IN THIS IMAGE TAG CAN'T ALLOWED TO LAOD LOCAL IMAGES AND HOW TO ADD IMAGE AND ALREADY LOAD ON UPWARD -->
+  <!-- <h1>my image</h1> -->
+  <!-- <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Down_Sign_Emoji_Icon_ios10_grande.png"width="windowWidth" height="windowHeight"> -->
+
+
+  <!-- HOW TO MAKES LIST AND TABLES -->
+  <!-- FIRST MAKING LIST -->
+  <!-- UL TAG I.E. UNORDEREDLIST -->
+  <!-- <ul type="square">                                                
+    <li>KULDEEP</li>
+    <li>TIGER</li>
+    <li>NEERAJ</li>
+  </ul>  -->
+  <!-- OL TAG I.E. ORDEREDEDLIST -->
+  <!-- <ol type="1">
+    <li>KUNAL</li>
+    <li>SANJAY</li>
+    <li>HI ALL</li>
+  </ol> -->
+
+  <!-- NOW MAKING TABLE -->
+  <!-- <table>
+    <thead>
+      <tr>
+        <th >king</th>
+        <th>sher</th>
+        <th>lion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+      </tr>
+      <tr>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+      </tr>
+      <tr>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+      </tr>
+      <tr>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+        <td>KULDEEP--NEERAJ</td>
+      </tr>
+    </tbody>
+  </table> -->
+
+  <!-- NOW CREATING A TIME TABLE WITH USING TABLE TAG -->
+  <table border=1 cellspacing="0">
+
+<tr> 
+ <th colspan="6"> Time Table </th>
+</tr>
+
+<tr>
+ <td rowspan="6"> Hours </td>
+ <th> mon </th>
+ <th> tues </th>
+ <th> Wed </th>
+ <th> Thrus</th>
+ <th> Fri </th>
+</tr>
+
+<tr>
+ <td> Science </td>
+ <td> Maths</td>
+ <td> Science</td>
+ <td> Maths </td>
+ <td> Arts</td>
+</tr>
+
+<tr>
+ <td> Science </td>
+ <td> Maths</td>
+ <td> Science</td>
+ <td> Maths </td>
+ <td> Arts</td>
+</tr>
+
+<tr>
+ <th colspan="5"> Lunch </th>
+</tr>
+
+<tr>
+ <td> Science </td>
+ <td> Maths</td>
+ <td> Science</td>
+ <td> Maths </td>
+ <td rowspan="2"> Project </td>
+</tr>
+
+<tr>
+  <td> Science </td>
+  <td> Maths</td>
+  <td> Science</td>
+  <td> Maths </td>
+</tr>
+</table>
+</body>
+
+<!-- HOW TO GIVE BACKGROUND-COLOR AND TEXT COLOR ALSO WITHOUT CSS -->
+<!-- <body bgcolor="aqua" text="pink">
+    THIS SHOWING HOW TO CREATE A PARAGRAPH 
+     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Iusto eaque,rem magnam consequatur consectetur obcaecati dolore 
+        aliquid illum similique molestiae vel architecto atque.
+        Voluptatem, doloribus quis quaerat similique non suscipit.</P>
+</body> -->
+
+</html>
